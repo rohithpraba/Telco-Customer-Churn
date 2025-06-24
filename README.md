@@ -89,4 +89,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 
 ## 📬 Contact
 
-For questions or suggestions, please contact \[Rohit BK] – \[(mailto:rohitbk168@gmail.com)]
+For questions or suggestions, please contact rohithpraba03@gmail.com
