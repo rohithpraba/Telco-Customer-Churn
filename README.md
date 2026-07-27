@@ -1,92 +1,25 @@
-# 📊 Telecom Customer Churn Analysis
+# Telecom Customer Churn Analysis
 
-This project analyzes customer churn data for a telecom company using data science and machine learning techniques. The goal is to identify key factors leading to customer churn and develop a predictive model to help reduce churn rates.
+> **Status:** Earlier learning project retained to show portfolio progression. It is not presented as a flagship or production model.
 
----
+This notebook explores telecom customer churn using exploratory analysis and classical classification models. The visible implementation includes Logistic Regression, Decision Tree, and Random Forest experiments together with a Gradio-oriented prototype section.
 
-## 📁 Project Structure
+## What this repository demonstrates
 
-```
-├── CI_Telecom_Customer_Churn.ipynb  # Main analysis notebook
-├── README.md                        # Project documentation
-└── data/                            # (Optional) Directory for datasets
-```
+- Basic data cleaning and exploratory analysis
+- Categorical encoding and numerical preprocessing experiments
+- Binary classification and confusion-matrix evaluation
+- An early interactive inference prototype
 
----
+## Current limitations
 
-## 📌 Objective
+- Preprocessing and model inference are not packaged as one fitted pipeline.
+- The notebook is not a durable hosted service.
+- The current README does not claim XGBoost, SMOTE, or a complete production deployment.
+- Overall accuracy alone is insufficient for a churn decision; churn recall, precision-recall behaviour, thresholds, calibration, and intervention cost would need stronger treatment in a rebuild.
 
-* Understand customer behavior leading to churn.
-* Perform exploratory data analysis (EDA).
-* Preprocess and engineer features.
-* Build and evaluate classification models to predict churn.
-* Provide actionable insights for retention strategies.
+## Run
 
----
+Open `CI_Telecom_Customer_Churn.ipynb`, update any local data path, install the libraries imported by the notebook, and run cells in order.
 
-## 📦 Requirements
-
-Make sure you have the following Python packages installed:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-```
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository or download the notebook.
-2. Place the dataset in the appropriate directory or update the notebook path.
-3. Open `CI_Telecom_Customer_Churn.ipynb` in Jupyter Notebook or VSCode.
-4. Run cells sequentially to execute EDA, modeling, and evaluation.
-
----
-
-## 📊 Methodology
-
-* **Data Loading & Cleaning**: Handle missing values, correct data types.
-* **EDA**: Visualize distributions, correlations, and churn trends.
-* **Feature Engineering**: Encode categorical variables, scale features.
-* **Modeling**:
-
-  * Logistic Regression
-  * Random Forest
-  * XGBoost
-* **Evaluation**:
-
-  * Accuracy, Precision, Recall, F1-Score
-  * Confusion Matrix
-  * ROC Curve
-
----
-
-## ✅ Results
-
-* The best-performing model is highlighted in the notebook.
-* Key churn indicators are identified, such as:
-
-  * Long service downtimes
-  * High international call rates
-  * Poor customer support ratings
-
----
-
-## 📈 Business Insights
-
-* Retention strategies are proposed based on churn drivers.
-* Churn can be reduced by focusing on customer satisfaction, proactive outreach, and competitive pricing.
-
----
-
-## 🧠 Future Work
-
-* Incorporate deep learning models.
-* Deploy the model via a web app.
-* Automate periodic churn predictions.
-
----
-
-## 📬 Contact
-
-For questions or suggestions, please contact rohithpraba03@gmail.com
+This project remains unpinned while stronger, reproducible repositories represent the current portfolio.
